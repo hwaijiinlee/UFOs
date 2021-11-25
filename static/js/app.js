@@ -23,7 +23,7 @@ function buildTable(data) {
             }
         );
    }); 
-};
+}
 
 //start building button click handling function
 function handleClick() {
@@ -43,7 +43,7 @@ function handleClick() {
     //@Note: if no date was entered, then filteredData will
     //just be the original tableData
     buildTable(filteredData);
-};
+}
 
 //listen for filter button click and run handleClick function
 d3.selectAll("#filter-btn").on("click", handleClick);
